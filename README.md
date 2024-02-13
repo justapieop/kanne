@@ -1,3 +1,3 @@
 # kanne
 
-An opensource Discord bot.
+An open source Discord bot.
