@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "incremental": false,
+    "target": "ESNext",
+    "lib": [
+      "ESNext"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "NodeNext",
+    "rootDir": "src",
+    "moduleResolution": "NodeNext",
+    "resolvePackageJsonExports": true,
+    "resolvePackageJsonImports": true,
+    "allowJs": false,
+    "checkJs": false,
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "outDir": "dist",
+    "removeComments": true,
+    "importHelpers": true,
+    "inlineSources": true,
+    "newLine": "crlf",
+    "esModuleInterop": true,
+    "preserveSymlinks": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "alwaysStrict": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    "dist/**/*"
+  ]
+}
